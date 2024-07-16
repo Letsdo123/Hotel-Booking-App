@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import OutlinedButtons from './components/OutlinedButtons'
+import { Button } from '@material-tailwind/react'
+import { NavMenu } from './components/header/NavMenu'
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello 
-      </h1>
-      <OutlinedButtons/>
+    <NavMenu />
+      <Button>Button</Button>;
     </>
   )
 }
